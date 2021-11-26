@@ -1,6 +1,3 @@
-# xlsr-wav2vec2-asr-marathi
-Marathi language Automatic Speech Recognition using Facebook's Wav2vec 2.0 XLSR
-
 # Wav2Vec2-Large-XLSR-53-Marathi
 Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) on Marathi using the [Open SLR64](http://openslr.org/64/) dataset. When using this model, make sure that your speech input is sampled at 16kHz. This data contains only female voices but the model works well for male voices too. Trained on Google Colab Pro on Tesla P100 16GB GPU.<br>
 **WER (Word Error Rate) on the Test Set**: 12.70 %
